@@ -1,0 +1,59 @@
+
+{
+  "folders": [
+    {
+      "path": "instaCults.client",
+      "name": "client"
+    },
+    {
+      "path": "instaCults",
+      "name": "server"
+    },{"path":".github/workflows", "name":"workflows"}
+  ],
+  "settings": {
+    "editor.suggestSelection": "first",
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "javascript.referencesCodeLens.enabled": true,
+    "javascript.referencesCodeLens.showOnAllFunctions": true,
+    "typescript.implementationsCodeLens.enabled": true,
+    "typescript.referencesCodeLens.enabled": true,
+    "typescript.referencesCodeLens.showOnAllFunctions": true,
+    "js/ts.implicitProjectConfig.checkJs": true,
+    "files.exclude": {
+      "**/.nyc_*": true,
+      "**/coverage": true,
+      "**/node_modules": true
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDragAndDrop": false,
+    "eslint.alwaysShowStatus": true,
+    "eslint.format.enable": true,
+    "eslint.lintTask.enable": true,
+    "eslint.codeActionsOnSave.mode": "all",
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true
+    },
+    "workbench.colorCustomizations": {
+      "activityBar.activeBackground": "#86e1f9",
+      "activityBar.background": "#86e1f9",
+      "activityBar.foreground": "#15202b",
+      "activityBar.inactiveForeground": "#15202b99",
+      "activityBarBadge.background": "#f649d2",
+      "activityBarBadge.foreground": "#15202b",
+      "commandCenter.border": "#15202b99",
+      "sash.hoverBorder": "#86e1f9",
+      "statusBar.background": "#56d5f6",
+      "statusBar.foreground": "#15202b",
+      "statusBarItem.hoverBackground": "#26c9f3",
+      "statusBarItem.remoteBackground": "#56d5f6",
+      "statusBarItem.remoteForeground": "#15202b",
+      "titleBar.activeBackground": "#56d5f6",
+      "titleBar.activeForeground": "#15202b",
+      "titleBar.inactiveBackground": "#56d5f699",
+      "titleBar.inactiveForeground": "#15202b99"
+    },
+    "peacock.color": "#56d5f6"
+  }
+}
