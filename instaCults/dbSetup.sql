@@ -22,6 +22,10 @@ CREATE TABLE
 
 ALTER TABLE cults ADD COLUMN popularity INT NOT NULL DEFAULT 0;
 
+ALTER TABLE cults
+ADD
+    COLUMN coverImg VARCHAR(255) NOT NULL DEFAULT "https://images.unsplash.com/photo-1618426257457-0bc6cfa2de33?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80";
+
 INSERT INTO
     cults(
         name,
@@ -56,4 +60,4 @@ FROM cult_members cm
 
 INSERT INTO
     cult_members (cultId, accountId)
-VALUES (1, "632cc248c1fe0f9df71b9d4d");
+VALUES (4, "649efe9188e707ddba75abda");

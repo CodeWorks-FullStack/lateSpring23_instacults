@@ -12,8 +12,8 @@ public class CultsRepository
     internal Cult CreateCult(Cult cultData)
     {
         string sql = @"
-       INSERT INTO cults (name, description, tags, leaderId)
-       VALUES(@name, @description, @tags, @leaderId);
+       INSERT INTO cults (name, description, tags, coverImg, leaderId)
+       VALUES(@name, @description, @tags,@coverImg, @leaderId);
 
        SELECT
        cult.*,

@@ -7,6 +7,7 @@ public class Cult
     public string Tags { get; set; }
     public string Description { get; set; }
     public int Popularity { get; set; }
+    public string CoverImg { get; set; }
     public DateTime CreatedAt { get; set; }
     public DateTime UpdatedAt { get; set; }
     public string LeaderId { get; set; }

@@ -1,4 +1,3 @@
-
 {
   "folders": [
     {
@@ -8,7 +7,11 @@
     {
       "path": "instaCults",
       "name": "server"
-    },{"path":".github/workflows", "name":"workflows"}
+    },
+    {
+      "path": ".github/workflows",
+      "name": "workflows"
+    }
   ],
   "settings": {
     "editor.suggestSelection": "first",
@@ -36,24 +39,24 @@
       "source.fixAll": true
     },
     "workbench.colorCustomizations": {
-      "activityBar.activeBackground": "#86e1f9",
-      "activityBar.background": "#86e1f9",
+      "activityBar.activeBackground": "#dc8819",
+      "activityBar.background": "#dc8819",
       "activityBar.foreground": "#15202b",
       "activityBar.inactiveForeground": "#15202b99",
-      "activityBarBadge.background": "#f649d2",
+      "activityBarBadge.background": "#8df2c6",
       "activityBarBadge.foreground": "#15202b",
-      "commandCenter.border": "#15202b99",
-      "sash.hoverBorder": "#86e1f9",
-      "statusBar.background": "#56d5f6",
-      "statusBar.foreground": "#15202b",
-      "statusBarItem.hoverBackground": "#26c9f3",
-      "statusBarItem.remoteBackground": "#56d5f6",
-      "statusBarItem.remoteForeground": "#15202b",
-      "titleBar.activeBackground": "#56d5f6",
-      "titleBar.activeForeground": "#15202b",
-      "titleBar.inactiveBackground": "#56d5f699",
-      "titleBar.inactiveForeground": "#15202b99"
+      "commandCenter.border": "#e7e7e799",
+      "sash.hoverBorder": "#dc8819",
+      "statusBar.background": "#ae6c14",
+      "statusBar.foreground": "#e7e7e7",
+      "statusBarItem.hoverBackground": "#dc8819",
+      "statusBarItem.remoteBackground": "#ae6c14",
+      "statusBarItem.remoteForeground": "#e7e7e7",
+      "titleBar.activeBackground": "#ae6c14",
+      "titleBar.activeForeground": "#e7e7e7",
+      "titleBar.inactiveBackground": "#ae6c1499",
+      "titleBar.inactiveForeground": "#e7e7e799"
     },
-    "peacock.color": "#56d5f6"
+    "peacock.color": "#ae6c14"
   }
 }
